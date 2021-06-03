@@ -22,8 +22,6 @@ namespace CoreCodeCamp
       services.AddScoped<ICampRepository, CampRepository>();
 
       services.AddControllers();
-      //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Latest);
-
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
